@@ -1,11 +1,12 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Tiktok_searcher_sp
 
-My Chrome Extension
+Tiktok Keywords Searcher
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Easily search for TikTok videos using keywords.
+- Search within any user's favorites, liked, collections, reposts, and posts.
+- You also have the option to filter videos by specifying a custom date range for their posting dates.
 
 ## Install
 
@@ -13,7 +14,7 @@ My Chrome Extension
 
 ## Contribution
 
-Suggestions and pull requests are welcomed!.
+Suggestions and pull requests are welcomed!
 
 ---
 
