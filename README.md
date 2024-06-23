@@ -1,4 +1,5 @@
-![alt text](https://github.com/cathzhou/tiktok-keyword-searcher-extension/public/icons/icon_48.png?raw=true) TikTok Keywords Searcher
+![icon](https://github.com/cathzhou/tiktok-keyword-searcher-extension/blob/master/public/icons/icon-48.png?raw=true) **# TikTok Keywords Searcher**
+
 
 ## Features
 
