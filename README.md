@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> TikTok Keywords Searcher
+![alt text](https://github.com/cathzhou/tiktok-keyword-searcher-extension/public/icons/icon_48.png?raw=true) TikTok Keywords Searcher
 
 ## Features
 
