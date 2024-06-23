@@ -1,6 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Tiktok_searcher_sp
-
-Tiktok Keywords Searcher
+# <img src="public/icons/icon_48.png" width="45" align="left"> TikTok Keywords Searcher
 
 ## Features
 
