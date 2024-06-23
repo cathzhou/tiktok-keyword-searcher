@@ -1,4 +1,4 @@
-# !(https://github.com/cathzhou/tiktok-keyword-searcher-extension/blob/master/public/icons/icon-16.png?raw=true) width="45" align="left"> TikTok Keywords Searcher Chrome Extension
+# !(https://github.com/cathzhou/tiktok-keyword-searcher-extension/blob/master/public/icons/icon-16.png?raw=true) TikTok Keywords Searcher Chrome Extension
 
 ## Features
 
