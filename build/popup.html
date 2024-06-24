@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiktok Favorites Searcher</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <div class="container m-3">
+        <p class="title">TikTok Keyword Searcher</h1>
+    </div>
+    <div class="field m-3">
+        <p class="is-size-6">Navigate to your specified page and scroll down to add more videos to your query!</h1>
+    </div>
+    <div class="container m-3">
+        <div class="select" id="categoryDropdown">
+            <select id="category">
+            <option>Favorites</option>
+            <option>Collections</option>
+            <option>Liked</option>
+            <option>Reposts</option>
+            <option>Posts</option>
+            </select>
+        </div>
+        <p id="categoryError" class="help is-danger" style="display: none;">Please select a valid category.</p>
+    </div>
+
+    <div class="control m-3">
+        <input class="input" type="text" placeholder="Enter keywords" id="keywords">
+        <p id="keywordsError" class="help is-danger" style="display: none;">Please enter valid keyword(s).</p>
+
+    </div>
+
+    <div class="field m-3">
+        <label class="checkbox">
+            <input type="checkbox" id="noDateCheckbox"/>
+                No date range
+        </label>
+
+    </div>
+
+    <div class="field m-3">
+        <label class="label">Start date</label>
+        <div class="control">
+            <input type="date" id="startDate" class="input">
+        </div>
+
+        <p id="startDateError" class="help is-danger">Please enter a valid start date.</p>
+    </div>
+
+    <div class="field m-3">
+        <label class="label">End date</label>
+        <div class="control">
+            <input type="date" id="endDate" class="input">
+        </div>
+
+        <p id="endDateError" class="help is-danger">Please enter a valid end date.</p>
+        <p id="dateRangeError" class="help is-danger">End date must be greater than start date.</p>
+    </div>
+
+    <div class="field is-grouped m-3">
+        <p class="control">
+            <button class="button is-primary" id="searchButton">
+                Search
+            </button>
+        </p>
+        <p class="control">
+            <a class="button is-light" id="cancelButton">
+                Cancel
+            </a>
+        </p>
+        <div class="control is-flex is-align-items-center">
+            <div id="loadingSpan">
+                <p style="color: gray;">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <p class="control">
+          <a class="button is-primary" id="resultsButton">
+              See Results
+          </a>
+        </p>
+    </div>
+
+    <div class="container m-3">
+        <div id="canceledSpan" style="color: black;">
+            Search canceled.
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <div id="searchDoneSpan" style="color: black;">
+            Search finished.
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <div id="noResultsSpan" style="color: red;">
+            No results.
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="popup.js"></script>
+
+</html>

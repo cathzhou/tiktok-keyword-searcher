@@ -20,8 +20,11 @@
   },
   "permissions": [
     "sidePanel",
+    "tabs",
     "storage",
-    "activeTab"
+    "activeTab",
+    "declarativeContent",
+    "scripting"
   ],
   "host_permissions": [
     "*://*.tiktok.com/*"
