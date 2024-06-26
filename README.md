@@ -8,8 +8,7 @@
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
-
+[**Chrome** extension](https://chromewebstore.google.com/detail/tiktok-keyword-searcher-e/fjfbifjkmemjfaagilldkockiinndmpi?authuser=0&hl=en) 
 ## Contribution
 
 Suggestions and pull requests are welcomed!
